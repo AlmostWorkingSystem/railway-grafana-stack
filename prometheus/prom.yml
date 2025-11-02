@@ -9,7 +9,7 @@ scrape_configs:
   - job_name: "openproject"
     metrics_path: "/metrics"
     static_configs:
-      - targets: ["hub.erp.kiet.co.in/metrics"]
+      - targets: ["hub.erp.kiet.co.in"]
     scheme: https
 
   # - job_name: 'example_api'
